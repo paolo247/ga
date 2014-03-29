@@ -149,12 +149,12 @@ article h4 {
      margin-bottom: .7;
 }
 
-#main3 {
+main {
      float: left;
      width: 60%;
 }
 
-#main.ad {
+aside {
      float: right;
      width: 40%;
 }
@@ -185,12 +185,12 @@ footer nav a {
 }
 
 ul {
-     text-size: .8em;
+     font-size: .8em;
      padding: 0;
      margin: 0.5em;
 }
 
-.footer {
+footer {
      clear: both;
 }
 
