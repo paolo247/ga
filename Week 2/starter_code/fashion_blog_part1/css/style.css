@@ -1,0 +1,57 @@
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	background-color: beige;
+	padding: 50px;
+}
+
+h1 {
+     color: red;
+     font-size: 35px;
+}
+
+h1 a {
+	color: red;
+	text-decoration: none;
+}
+
+h1 nav {
+	color: grey;
+	border: 5px;
+	margin: 5px;
+}
+
+h2 {
+	color: black;
+	font-size: 20px;
+	margin: 5px;
+}
+
+nav a {
+	color: grey;
+	font-size: 18px;
+}
+
+nav a:hover{
+	text-decoration: none;
+}
+
+article {
+	margin: 10px;
+}
+
+article p:first letter {
+	float: left;
+	font-size: 60px;
+	line-height: 1;
+	color: #DDD;
+}
+
+

@@ -1,0 +1,43 @@
+*{
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+}
+
+h2 {
+	color: red;
+}
+
+header h2 {
+	color: green;
+}
+
+aside p {
+	font-weight: bold;
+}
+
+header h2 em {
+	font-weight: bold;
+	color: pink;
+	font-size: 20px;
+}
+
+ul li:first-child{
+	font-weight: bold;
+	color:green;
+}
+
+li:nth-of-type(even) {
+	color: salmon;
+}
+
+ul li:last-child
+{
+	background: purple;
+}
+
+
+
+
+
+
