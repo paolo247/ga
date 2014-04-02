@@ -1,0 +1,238 @@
+/* 
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP                   
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right; 
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left; 
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES                   
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Merriweather, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT                   
+/*******************************************/
+
+/* Center the container */
+.container {
+     margin: 0 auto;
+}
+
+.banner {
+     background-image: url(../images/coworking.jpg);
+     width: 100%;
+     height: 448px;
+     margin: 0 auto;
+}
+
+.blurb {
+     float: right;
+     margin: 28px 28px 28px 28px;
+     padding: 2em;
+     background: rgba(255,255,255,.8);
+     width: 34%;
+     height: 85%;
+     color: #000;
+     font-size: 16px;
+     border: .1em solid #000;
+     word-wrap: break-word;
+}
+
+.button-yellow {
+     text-decoration: none;
+     margin-left: 2em;
+     border-top: 2px solid #f8ff00;
+     border-left: 2px solid #f8ff00;
+     border-right: 2px solid #f8ff00;
+     border-bottom: 2px solid #4f6267;
+     padding: 6px 14px;
+     font-size: 12px;
+     background-color: #f8ff00;
+     font-weight: bold;
+     color: #000;
+}
+
+.button {
+     text-decoration: none;
+     margin-left: 2em;
+     border-top: 2px solid #A29D9D;
+     border-left: 2px solid #A29D9D;
+     border-right: 2px solid #A29D9D;
+     border-bottom: 2px solid #000;
+     padding: 6px 14px;
+     font-size: 12px;
+     background-color: #DDD9D9;
+     font-weight: bold;
+     color: #000;
+     border-collapse: collapse;
+}
+
+.button:hover {
+     color: #f8ff00;
+}
+
+.one {
+     border-right: 1px solid #000;
+     border width: 80%;
+     border-collapse: collapse;
+     padding: 2em;
+}
+
+.two {
+     border-right: 1px solid #000;
+     border width: 80%;
+     border-collapse: collapse;
+     padding: 2em;
+}
+
+.three {
+
+}
+
+.last-section {
+     width: 264px;
+     display: block;
+     float: left;
+     margin: 2em 1em;
+     padding: 2em;
+}
+
+.last-section p {
+     margin: 1em 2em;
+}
+
+header h1 {
+     color: #f8ff00;
+     float: left;
+     font-size: 2em;
+     margin: 20px 0 0 0;
+     display: inline-block;
+}
+
+
+header {
+     background: #000;
+     border-bottom: 2px solid #f8ff00;
+     color: white;
+     height: 100px;
+}
+
+h2 {
+     margin-top: 0;
+     text-align: center;
+}
+
+.blurb h2 {
+     text-align: left;
+}
+
+nav {
+     float: right;
+     margin: 2em 12em 3em 1em
+}
+
+nav a {
+     color: white;
+     text-decoration: none;
+     display: inline-block;
+     padding: 0em;
+     margin: .1em .3em;
+}
+
+.subheading {
+     background: #c6c6c6;
+     padding: 10px;
+     font-style: italic;
+}
+
+.strike {
+     text-decoration: line-through;
+     color: #999;
+}
+
+.border-bottom {
+     border-bottom: 2px solid #f8ff00
+}
+
+header,
+main,
+footer {
+     color: white;
+     height: 100px;
+}
+
+.strong {
+     font-weight: bold;
+     text-transform: uppercase;
+}
+
+header h1 {
+     float: left;
+     margin-left: 1em;
+}
+
+main {
+    
+}
+
+footer {
+     background-color: #000;
+     width: 100%;
+     height: 33px;
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES                   
+/*******************************************/
+
+
+
+
