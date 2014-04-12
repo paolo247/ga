@@ -72,6 +72,7 @@ body {
 .blurb {
      float: right;
      margin: 28px 28px 28px 28px;
+     max-width: 25%;
      padding: 2em;
      background: rgba(255,255,255,.8);
      width: 34%;
@@ -133,8 +134,12 @@ body {
 
 }
 
+#sections {
+     max-width: 100%;
+}
+
 .last-section {
-     width: 264px;
+     width: 30%;
      display: block;
      float: left;
      margin: 2em 1em;
@@ -180,7 +185,7 @@ nav a {
      text-decoration: none;
      display: inline-block;
      padding: 0em;
-     margin: .1em .3em;
+     margin: .1em 1em;
 }
 
 .subheading {
@@ -212,7 +217,7 @@ footer {
 
 header h1 {
      float: left;
-     margin-left: 1em;
+     margin-left: 4em;
 }
 
 main {
