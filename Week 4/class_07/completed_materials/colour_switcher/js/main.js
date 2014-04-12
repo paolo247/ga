@@ -1,3 +1,10 @@
+function colorChanger(element, bgColor, txtColor) {
+    element.style.backgroundColor = bgColor;
+    element.style.color = txtColor;
+}
+
+
+
 window.onload = function() {
 
   var body = document.getElementById('background');
@@ -6,18 +13,15 @@ window.onload = function() {
   var yellowButton = document.getElementById('yellow');
 
   greyButton.onclick = function() {
-    body.style.backgroundColor = 'grey';
-    body.style.color = 'white';
+  colorChanger(body, "grey", "white")
   }
 
   blueButton.onclick = function() {
-    body.style.backgroundColor = 'blue';
-    body.style.color = 'white';
+  colorChanger(body, "blue", 'white';
   }
 
   yellowButton.onclick = function() {
-    body.style.backgroundColor = 'yellow';
-    body.style.color = 'black';
+  colorChanger(body, "yellow", 'black';
   }
 
 }
