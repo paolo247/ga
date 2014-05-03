@@ -5,13 +5,13 @@
 
 	var	buttonScissors = document.getElementById("scissors");
     
-
-
+	
 
 
 
 	buttonRock.onclick = function () {
 
+	var humanScore = 0;
 
     var computerChoice = Math.random();
 
@@ -36,7 +36,15 @@
 					{ 
 						Information.innerHTML = "You played rock. The bot played scissors.<br><br>You win! :)";
 					}
-				}
+
+		if (computer == "rock") {
+			var total = 0;
+			total += humanScore;
+
+		}
+
+
+		}
 			
 
 	buttonPaper.onclick = function () {

@@ -41,7 +41,6 @@ function changeImage() {
 		$("img#image-to-vote-on").attr("src", images[i]);
 	} else {
 		
-
 }
 
 
