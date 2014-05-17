@@ -1,0 +1,30 @@
+header,
+section,
+aside {
+	padding: 20px;
+}
+
+header {
+	background: #000;
+}
+
+section {
+	background: #F35
+}
+
+section {
+	background: #F35
+}
+
+section section {
+	background: yellow;
+}
+
+aside {
+	background: #9EF;
+}
+
+footer {
+
+	background:#5E3;
+}
